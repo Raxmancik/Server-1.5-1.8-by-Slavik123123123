@@ -1,0 +1,17 @@
+﻿Если кто незнает как, то читайте.
+
+1. Сохраняем карту мира.
+
+2. Копируем из папки plugins в новую сборку в папку plugins
+2.1 Authme файл auths.db
+2.2 ChestShop файлы items.db, users.db
+2.3 Essentials папки userdata и warps
+2.4 Jobs файл jobs.sqlite.db
+2.5 PermissionsEx файл permissions.yml (Если изменения не касались в этом плагины, Если был изменён мной этот плагин значит вам надо заного прописывать игрокам группы)
+2.6 AutoMessage файл config.yml
+2.7 TitleBar и TabList файл config.yml
+2.8 Если изменяли WGExtender ,WorldEdit и WorldBorder то просто скопируйте эти папки.
+2.9 Полность копируем папку WorldGuard
+
+
+3. Молодцы! Вы обновили сборку!

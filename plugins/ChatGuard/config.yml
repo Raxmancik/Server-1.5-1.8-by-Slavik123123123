@@ -1,0 +1,48 @@
+Replacements:
+- 0|o
+- 1|l
+- '@|a'
+CheckUpdates: false
+Caps: true
+Flood: true
+Swear: true
+Advertisment: true
+CapsPercent: 80
+FloodTime: 10
+Cancel: false
+caps-length: 3
+Alternative: <сообщение удалено>
+Warnings:
+  enable: true
+  custom: true
+  count: 10
+  custom-alts:
+    swear: <мат удалён>
+    advert: <реклама удалена>
+Listen-commands: true
+Informing:
+  swear: true
+  caps: true
+  advert: true
+  flood: true
+Check-signs: true
+Check-cmds:
+- /me
+- /msg
+- /tell
+Patterns:
+  ip: \d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}(:\d*)?
+  domain: ([0-9a-z]{2,}\.)+(ru|com|org|ua|su|tv|net|biz|info|name|mobi|kz|by|lv|eu|tk)(:\d*)?
+Punishment:
+  ban: false
+  kick: true
+  mute:
+    enable: true
+    minutes: 10
+  kill: false
+  command:
+  - say {player} кикнут. {reason}
+  - kick {player} {reason}
+  - give Den_Abr 1
+  reason: Ты плохой!
+Whitelist:

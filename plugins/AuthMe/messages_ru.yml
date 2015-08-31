@@ -1,0 +1,61 @@
+# Translate by AlexMerser / Перевод от AlexMerser
+unknown_user: Пользователя нету в базе данных
+unsafe_spawn: Ваше последнее место нахождения не безопасно. Вы телепортированы на спавн
+not_logged_in: '&сВы не авторизованы!'
+reg_voluntarily: '&eЗарегистрируйтесь:  &c/register &f[&cПароль&f] &f[&cПароль&f]'
+usage_log: '&eВойди в игру &c/login &f[&cПароль&f]'
+wrong_pwd: '&cНеправильный пароль'
+unregistered: '&cТеперь вы не зарегистрированы!'
+reg_disabled: '&2Регистрация выключена'
+valid_session: '&eВы в игре, пароль вводить не нужно.'
+login: '&aВы успешно вошли!'
+vb_nonActiv: Ваш аккаунт ещё не активирован! Проверьте свой E-Mail!
+user_regged: '&cПользователь уже зарегистрирован'
+usage_reg: '&2&lИспользуйте:  &6&l/register &8&l[&b&lПароль&8&l] &8&l[&b&lПароль&8&l]'
+max_reg: '&cВы превысили максимальное число регистраций для аккаунта'
+no_perm: '&сК сожалению у вас нету прав :|'
+error: Произошла ошибка. Пожалуйста, свяжитесь с администратором
+login_msg: '&eВойди в игру &c/login &f[&cПароль&f]'
+reg_msg: '&eЗарегистрируйтесь:  &c/register &f[&cПароль&f] &f[&cПароль&f]'
+reg_email_msg: '&cЗарегистрируйтесь - /register ВАШ_EMAIL ВАШ_EMAIL'
+usage_unreg: '&cИспользуйте: &c/unregister <пароль>'
+pwd_changed: '&2&lПароль изменен!'
+user_unknown: '&cПользователь не зарегистрирован'
+password_error: '&cПароли не совпадают!'
+unvalid_session: '&cДаты сессий не совпадают. Пожалуйста, дождитесь конца сессии'
+reg_only: Только для зарегистрированных игроков! Пожалуйста, посетите http://example.com, чтобы зарегистрироваться
+logged_in: '&eВы в игре,пароль вводить не нужно.'
+logout: '&aВы успешно вышли'
+same_nick: '&cИгрок с таким ником уже играет на сервере'
+registered: '&6Вы успешно зарегистрировались!'
+pass_len: '&cВаш пароль не достигает минимальной длины'
+reload: Конфигурация и база данных были перезагружены
+timeout: '&cВремя авторизации вышло'
+usage_changepassword: '&cИспользуйте: &6/changepassword <старый пароль> <новый пароль>'
+name_len: '&cYour nickname is too Short or too long'
+regex: '&cYour nickname contains illegal characters. Allowed chars: REG_EX'
+add_email: '&cPlease add your email with : /email add yourEmail confirmEmail'
+bad_database_email: '[AuthMe] This /email command only available with MySQL and SQLite,
+  contact an Admin'
+recovery_email: '&cForgot your password? Please use /email recovery <yourEmail>'
+usage_captcha: '&cUsage: /captcha <theCaptcha>'
+wrong_captcha: '&cWrong Captcha, please use : /captcha THE_CAPTCHA'
+valid_captcha: '&cYour captcha is valid !'
+kick_forvip: '&cVIP игрок зашел на переполненный сервер!'
+kick_fullserver: '&a&lСервер переполнен!'
+usage_email_add: '&fИспользование: /email add ВАШ_EMAIL ВАШ_EMAIL '
+usage_email_change: '&fИспользование: /email change СТАРЫЙ_EMAIL НОВЫЙ_EMAIL '
+usage_email_recovery: '&fИспользование: /email recovery ВАШ_EMAIL'
+new_email_invalid: '[AuthMe] Новый email недействителен!'
+old_email_invalid: '[AuthMe] Старый email недействителен!'
+email_invalid: '[AuthMe] Email неправильный'
+email_added: '[AuthMe] Email добавлен!'
+email_confirm: '[AuthMe] Подтвердите ваш email!'
+email_changed: '[AuthMe] Email изменен!'
+email_send: '[AuthMe] Восстановительное письмо отправлено!'
+country_banned: Ваша страна запрещена на этом сервере
+antibot_auto_enabled: '[AuthMe] AntiBot-режим автоматически включен из-за большого
+  количества входов!'
+antibot_auto_disabled: '[AuthMe] AntiBot-режим автоматичски отключен после %m мин.
+  Надеюсь, атака закончилась'
+
