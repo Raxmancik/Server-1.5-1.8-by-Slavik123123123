@@ -86,7 +86,7 @@ groups:
     - essentials.msg.color
     - essentials.near
     - essentials.jump
-    - essentials.sethome.multiple.4
+    - essentials.sethome.multiple.vip
     - essentials.chat.color
     - essentials.chat.format
     - essentials.chat.magic
@@ -118,7 +118,7 @@ groups:
     - essentials.fireball
     - essentials.back
     - essentials.back.ondeath
-    - essentials.sethome.multiple.6
+    - essentials.sethome.multiple.vipp
     - essentials.top
     - essentials.firework.fire
     - essentials.firework
@@ -155,7 +155,7 @@ groups:
     - essentials.spawnmob.*
     - essentials.spawnmob
     - essentials.weather
-    - essentials.sethome.multiple.8
+    - essentials.sethome.multiple.mvp
     - essentials.setwarp
     - essentials.afk.kickexempt
     - essentials.speed
@@ -194,7 +194,7 @@ groups:
     - essentials.spawner.giant
     - essentials.spawner.squid
     - essentials.home.others
-    - essentials.sethome.multiple.10
+    - essentials.sethome.multiple.mvpp
     - essentials.tppos
     - essentials.protect.alerts.notrigger
     - essentials.protect.exemptplacement
@@ -448,12 +448,5 @@ groups:
     options:
       prefix: ' &4&l<<<&b&lAdministrator&4&l>>> &a&l'
       suffix: '&3'
-      default: false
-  ivent:
-    permissions:
-    - '*'
-    options:
-      prefix: ' &4&l{&b&lIVENT MASTER&4&l} &2&l'
-      suffix: '&2'
       default: false
 schema-version: 1

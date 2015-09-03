@@ -397,9 +397,12 @@ update-bed-at-daytime: true
 # Define different amounts of multiple homes for different permissions, e.g. essentials.sethome.multiple.vip
 # People with essentials.sethome.multiple.unlimited are not limited by these numbers.
 sethome-multiple:  
-  default: 3
+  default: 2
   # essentials.sethome.multiple.vip
-  vip: 5
+  vip: 4
+  vipp: 6
+  mvp: 8
+  mvpp: 10
   # essentials.sethome.multiple.staff
   staff: 7
 
